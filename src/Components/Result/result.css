@@ -24,9 +24,10 @@
     align-items: center;
     background-color: hsl(241, 81%, 54%,0.1);
 }
-.result-circle h1 {
+.result-circle span {
     color: var(--white);
     font-size: 55px;
+    font-weight: 700;
 }
 .result-circle h4 {
     color: var(--lightLavender);

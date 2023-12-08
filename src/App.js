@@ -6,10 +6,10 @@ import Result from './Components/Result/Result';
 function App() {
   return (
     <div className="App">
-      <div className="wrapper">
+      <main>
         <Result />
         <Summary />
-      </div>
+      </main>
     </div>
   );
 }

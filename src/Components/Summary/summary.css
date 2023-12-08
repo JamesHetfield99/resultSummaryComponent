@@ -7,13 +7,16 @@
     padding: 40px;
     justify-content: space-between;
     background-color: var(--paleBlue);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
 }
 .summary-div h3 {
     color: #2c313e;
     font-weight: 600;
 }
 .summary-stats-div{
-    gap: 30px;
+    gap: 20px;
 }
 .summary-button {
     color: var(--white);
@@ -33,12 +36,13 @@
 @media only screen and (max-width: 500px) {
     .summary-div {
         padding: 25px 30px;
+        border-radius: 0px;
     }
     .summary-div h3 {
         font-weight: 600;
     }
     .summary-stats-div {
-        gap: 50px;
+        gap: 40px;
     }
     .summary-button {
         padding-top: 20px;
@@ -48,7 +52,7 @@
 }
 @media only screen and (max-height: 700px){
     .summary-stats-div {
-        gap: 30px;
+        gap: 15px;
     }
     .summary-button {
         padding-top: 15px;

@@ -5,7 +5,7 @@ const Result = () => {
     <div className="result-div">
         <h3 className="result-header">Your Result</h3>
         <div className="result-circle">
-            <h1>76</h1>
+            <span>76</span>
             <h4>of 100</h4>
         </div>
         <div className="result-bottom-div">

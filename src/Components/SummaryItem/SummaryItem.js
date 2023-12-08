@@ -2,11 +2,10 @@ import "./summaryItem.css"
 
 const SummaryItem = ({ itemObject }) => {
 
-  console.log(itemObject["colorClass"])
   return (
     <div className="summary-item">
         <div className={`summary-text ${itemObject["colorClass"]}`}>
-            <img src={itemObject["logo"]} />
+            <img src={itemObject["logo"]} alt="" />
             <span>{itemObject["text"]}</span>
         </div>
         <div className="summary-score">
