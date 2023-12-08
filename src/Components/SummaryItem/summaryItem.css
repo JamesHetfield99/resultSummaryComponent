@@ -1,0 +1,39 @@
+.summary-item,.summary-text,.summary-score,.summary-text {
+    display: flex;
+    align-items: center;
+}
+.summary-item {
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+.summary-text {
+    gap: 10px;
+    font-weight: 700;
+    opacity: 0.7;
+}
+.amount-score,.total-score {
+    font-weight: 700;
+    color: var(--darkGrayBlue);
+}
+.total-score {
+    opacity: 0.3;
+}
+.red-stat{
+    color: var(--lightRed);
+}
+.yellow-stat{
+    color: var(--orangeyYellow);
+}
+.green-stat{
+    color: var(--greenTeal);
+}
+.blue-stat{
+    color: var(--cobaltBlue);
+}
+
+
+@media only screen and (max-width: 500px) {
+    .summary-item {
+        padding: 0px 15px;
+    }
+}
